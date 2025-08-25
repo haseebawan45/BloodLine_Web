@@ -842,3 +842,400 @@ footer .logo span {
         flex: 0 0 100%;
     }
 } 
+/* Acc
+ount Deletion Page Styles */
+.page-content {
+    padding: 120px 0 80px;
+    background: var(--background-light);
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-content h1 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.deletion-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info-card {
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.card-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
+.info-card h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.info-card p {
+    color: var(--text-light);
+    font-size: 1.1rem;
+}
+
+.deletion-methods h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.method-card {
+    display: flex;
+    gap: 1.5rem;
+    background: var(--background-light);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 2rem;
+    border: 1px solid #e0e0e0;
+}
+
+.method-number {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.method-content h3 {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.method-content ol, .method-content ul {
+    margin-left: 1.5rem;
+    color: var(--text-light);
+}
+
+.method-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.method-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.method-content a:hover {
+    text-decoration: underline;
+}
+
+.data-deletion-info h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.data-item {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.data-item i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.data-item h4 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.data-item p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.important-notes h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.warning-box {
+    background: #fff3e0;
+    border: 1px solid #ffb74d;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.warning-box i {
+    font-size: 1.5rem;
+    color: var(--warning-color);
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.warning-box h4 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.warning-box p {
+    color: var(--text-light);
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #e0e0e0;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+.info-item h4 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.info-item p {
+    color: var(--text-light);
+}
+
+.alternatives h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.alternatives > p {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.alternative-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.option-card {
+    background: var(--background-light);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    transition: var(--transition);
+}
+
+.option-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.option-card i {
+    font-size: 2rem;
+    color: var(--success-color);
+    margin-bottom: 1rem;
+}
+
+.option-card h4 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.option-card p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.contact-support {
+    text-align: center;
+    background: var(--background-dark);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+
+.contact-support h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.contact-support p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.support-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.support-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.support-buttons .btn i {
+    font-size: 1rem;
+}
+
+/* Responsive Design for Account Deletion Page */
+@media (max-width: 768px) {
+    .page-content {
+        padding: 100px 0 60px;
+    }
+    
+    .page-content h1 {
+        font-size: 2rem;
+    }
+    
+    .method-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .method-number {
+        align-self: center;
+    }
+    
+    .data-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .alternative-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .support-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .support-buttons .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}/*
+ App Navigation Tip Styling */
+.app-navigation-tip {
+    background: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.app-navigation-tip i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.app-navigation-tip p {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.app-navigation-tip strong {
+    color: var(--secondary-dark);
+}
+
+@media (max-width: 768px) {
+    .app-navigation-tip {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .app-navigation-tip i {
+        align-self: center;
+    }
+}
